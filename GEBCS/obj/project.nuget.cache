@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xvEGOUGg6dywmNcYWEQi9phLZVUCXYjsXEZsJI2Mo6PcmXkHFKh+4Z5UOn1+qbLqtXpc0O2420s9kBQTDA0//A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\MODDING_AREA\\GEBCS_Restruct\\GEBCS\\GEBCS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\ionic.zlib.core\\1.0.0\\ionic.zlib.core.1.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\miniexcel\\1.32.1\\miniexcel.1.32.1.nupkg.sha512"
+  ],
+  "logs": []
+}

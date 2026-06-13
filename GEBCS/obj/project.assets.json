@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Ionic.Zlib.Core/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Ionic.Zlib.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ionic.Zlib.Core.dll": {}
+        }
+      },
+      "MiniExcel/1.32.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MiniExcel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MiniExcel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ionic.Zlib.Core/1.0.0": {
+      "sha512": "3GBgjMQA/uPTiqv+wMCpLsyK5dcHCF6EV8+pg4IMKLbgbMGEtIkvErEO4ql5Cv18n94Smf3NAhY/sCed2Tb+Tw==",
+      "type": "package",
+      "path": "ionic.zlib.core/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ionic.zlib.core.1.0.0.nupkg.sha512",
+        "ionic.zlib.core.nuspec",
+        "lib/netstandard2.0/Ionic.Zlib.Core.dll"
+      ]
+    },
+    "MiniExcel/1.32.1": {
+      "sha512": "givinRByTg0nQAktcFSaLmIt9Ki+LwYjlwtSYXuwQdoyAy8Z3RfBnKR/UA/79mWmb8wKJgPlnZf87pvOBpdZ/g==",
+      "type": "package",
+      "path": "miniexcel/1.32.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/MiniExcel.dll",
+        "lib/net6.0/MiniExcel.dll",
+        "lib/netstandard2.0/MiniExcel.dll",
+        "miniexcel.1.32.1.nupkg.sha512",
+        "miniexcel.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Ionic.Zlib.Core >= 1.0.0",
+      "MiniExcel >= 1.32.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\MODDING_AREA\\GEBCS_Restruct\\GEBCS\\GEBCS.csproj",
+      "projectName": "GEBCS",
+      "projectPath": "C:\\Users\\Admin\\Documents\\MODDING_AREA\\GEBCS_Restruct\\GEBCS\\GEBCS.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\MODDING_AREA\\GEBCS_Restruct\\GEBCS\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Ionic.Zlib.Core": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "MiniExcel": {
+            "target": "Package",
+            "version": "[1.32.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
